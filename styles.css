@@ -1,0 +1,46 @@
+.column {
+    float: left;
+    width: 40%;
+    text-align:center;
+    padding-left: 5%;
+  }
+.otherColumn {
+    float: right;
+    width: 40%;
+    text-align:center;
+    padding-right: 5%;
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+        display: flex;
+        justify-content: center;  /* Horizontal centering */
+        /*height: 100vh;            /* Full viewport height */
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+.centertext {
+    text-align: center;
+    font-size: 20px;
+}
+html {
+    max-width: 100%;
+    max-height: 95%;
+    background-color: orange;
+}
+p {
+    text-indent: 30px; /* Indent by 30 pixels */
+    font-family:Arial, Helvetica, sans-serif
+}
+img {
+    border: 1px solid #000;
+    max-width: 450px;
+    max-height:450px;
+    padding: 4%;
+  }
